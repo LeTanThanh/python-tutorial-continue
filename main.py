@@ -16,3 +16,12 @@ if __name__ == "__main__":
 
     # more code here
   """
+
+  # Using Python continue in a for loop example
+
+  for index in range(10):
+    if index % 2 == 0:
+        print(f"Skip {index}")
+        continue
+
+    print(index)
