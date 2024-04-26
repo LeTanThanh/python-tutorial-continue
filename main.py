@@ -20,8 +20,20 @@ if __name__ == "__main__":
   # Using Python continue in a for loop example
 
   for index in range(10):
-    if index % 2 == 0:
-        print(f"Skip {index}")
-        continue
+    if index % 2:
+      print(f"Skip {index}")
+      continue
+
+    print(index)
+
+  # Using Python continue in a while loop example
+
+  index = 0
+  while index < 10:
+    index += 1
+
+    if index % 2:
+      print(f"Skip {index}")
+      continue
 
     print(index)
